@@ -1,38 +1,95 @@
 .App {
   text-align: center;
+  background-color:rgba(221, 221, 221, 0.26);
+  width: 100vw;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color:#000 ;
+  height: 280px;
+  width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header p{
+  margin-top:20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.outer{
+  width: 98%;
+  height: 250px;
+  background-color: black;
+  border:solid white;
+  border-top: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.inner {
+  width: 98%;
+  height: 240px;
+  background-color: black;
+  border:solid whitesmoke;
+  border-top: none;
+  border-radius: 5px;
+}
+.outer p{
+  color:red;
+  font-size: 63px;
+  font-family: 'STIX Two Text', serif;
 }
 
-.App-link {
-  color: #61dafb;
+/* end header */
+
+.menu{
+height: auto;
+width: 100%;
+background-color:rgb(221, 221, 221);
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FF0000;
+  color: white;}
+
+  /* start slideshow */
+  .slide-container{
+    width: 80vw;
+    height: 400px;
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .each-fade img {
+    width: 80vw;
+    height: 400px;
   }
+/* end slideshow// start info images */
+.info-container{
+  height: 400px;
+  width: 100vw;
+  background-color:rgba(221, 221, 221, 0.26);
+
 }
