@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Services from "./Services";
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -13,27 +15,52 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <div className="menu">
-          <div class="topnav">
-            <a class="active">About</a>
-            <a>Services</a>
-            <a>Contact Us</a>
-            <a>Promotions</a>
-            <a>Reviews</a>
-          </div>
+        {/*Start nav*/}
 
+        <div className="menu">
+          <Router>
+          <Route path="/"/>
+            <div class="topnav">
+              <a class="active">About</a>
+              <Link to={`/services/`}>Services</Link>
+              <a>Services</a>
+              <a>Contact Us</a>
+              <a>Promotions</a>
+              <a>Reviews</a>
+            </div>
+            <Switch>
+              <Route path="/services/" component={Services}/>
+            </Switch>
+          </Router>
+          {/* end nav*/}
+          {/*Start header */}
           <div className="header">
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <div className="outer">
               <div className="inner">
                 <p>Reliable Roofing and Repairs ATX LLC</p>{" "}
+                <div className="socials">
+                  <a href="https://www.yelp.com/biz/reliable-roofing-and-repairs-leander-3">
+                    <div id="yelp" className="icons"></div>
+                  </a>
+                  <a href="https://www.facebook.com/reliableroofingandrepairs512/">
+                    {" "}
+                    <div id="facebook" className="icons"></div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/reliable-roofing-and-repairs-atx-llc-ba9396218/">
+                    <div id="linkedin" className="icons"></div>
+                  </a>
+                  <a href="https://www.bbb.org/us/tx/volente/profile/roofing-contractors/reliable-roofing-repairs-0825-1000134173">
+                    <div id="bbb" className="icons"></div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           {/* end header*/}
 
-          {/*End of navigation bar // start of slideshow */}
+          {/*start of slideshow */}
           <div className="duo">
             <div className="duo-info">
               <h2>LEAVE YOUR ROOF WITH ONLY THE MOST RELIABLE</h2>
@@ -116,22 +143,6 @@ class Home extends Component {
         <div className="footer">
           <div id="logo">
             <p>[LOGO HERE]</p>
-          </div>
-          <div className="socials">
-            <p>Follow us:</p>
-            <a href="https://www.yelp.com/biz/reliable-roofing-and-repairs-leander-3">
-              <div id="yelp" className="icons"></div>
-            </a>
-            <a href="https://www.facebook.com/reliableroofingandrepairs512/">
-              {" "}
-              <div id="facebook" className="icons"></div>
-            </a>
-            <a href="https://www.linkedin.com/in/reliable-roofing-and-repairs-atx-llc-ba9396218/">
-              <div id="linkedin" className="icons"></div>
-            </a>
-            <a href="https://www.bbb.org/us/tx/volente/profile/roofing-contractors/reliable-roofing-repairs-0825-1000134173">
-              <div id="bbb" className="icons"></div>
-            </a>
           </div>
         </div>
       </div>
