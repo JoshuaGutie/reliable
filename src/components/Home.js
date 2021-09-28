@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Services from "./Services";
+import Nav from './Nav';
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -18,20 +17,6 @@ class Home extends Component {
         {/*Start nav*/}
 
         <div className="menu">
-          <Router>
-          <Route path="/"/>
-            <div class="topnav">
-              <a class="active">About</a>
-              <Link to={`/services/`}>Services</Link>
-              <a>Services</a>
-              <a>Contact Us</a>
-              <a>Promotions</a>
-              <a>Reviews</a>
-            </div>
-            <Switch>
-              <Route path="/services/" component={Services}/>
-            </Switch>
-          </Router>
           {/* end nav*/}
           {/*Start header */}
           <div className="header">

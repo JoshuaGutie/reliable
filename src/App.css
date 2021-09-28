@@ -52,13 +52,13 @@ background-image: linear-gradient(whitesmoke, white);
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(37, 37, 37);
   width: 100%;
   display: flex;
     justify-content: center;
     margin-bottom:10px;
     position: fixed;
-    opacity: 0.75;
+    opacity: 0.55;
 }
 
 .topnav a {
@@ -69,7 +69,12 @@ background-image: linear-gradient(whitesmoke, white);
   text-decoration: none;
   font-size: 17px;
   width: 15%;
+  position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
 }
+
 
 .topnav a:hover {
   background-color: #ddd;
@@ -172,7 +177,7 @@ background-image: linear-gradient(whitesmoke, white);
 }
 
 .extra{ 
-  height: 450px;
+  height: auto;
   background-image: linear-gradient(whitesmoke, rgb(119, 119, 119));
 display: flex;
 justify-content: space-around;
@@ -182,11 +187,16 @@ justify-content: space-around;
   font-family: 'Oswald',Helvetica,Arial,sans-serif;
   font-size: 30px;
   text-align: end;
+  margin: auto;
 }
 
 .extra-p p{
   width: 40vw;
   margin: 25px;
+  height: auto;
+  background-color: rgba(145, 0, 0, 0.212);
+  padding: 10px;
+  border: 1px rgba(129, 3, 3, 0.438) solid;
 }
 
 /* end images// start footer */

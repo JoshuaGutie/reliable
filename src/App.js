@@ -1,10 +1,15 @@
 
 import Home from './components/Home';
-//import Services from './components/Services';
+import Router from "./Router";
+import { BrowserRouter } from "react-router-dom";
+import Nav from './components/Nav';
+
 function App() {
   return (
-   <Home />
-   //<Services />
+    <BrowserRouter>
+    <Nav/>
+    <Router></Router>
+  </BrowserRouter>
   );
 }
 
