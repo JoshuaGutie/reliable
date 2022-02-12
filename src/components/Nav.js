@@ -18,7 +18,6 @@ class Nav extends Component {
             </NavLink>
           }
           <a>Contact Us</a>
-          <a>Promotions</a>
           <a>Reviews</a>
         </div>
       </div>

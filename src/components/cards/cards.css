@@ -1,0 +1,41 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.type-container {
+display: flex;
+flex-direction: column;
+}
+
+.card-container button {
+    max-width: 75px;
+    width: 75px;
+    align-self: center;
+    margin: 10px; 
+}
+
+.card-container button:hover{
+    color:#000000;
+     background-color:#FFFFFF;
+    
+}
+
+.card {
+    width: 25vw;
+    height: auto;
+    background-color:#D8D8D8 ;
+    border-radius: 3px;
+    white-space: pre-line;
+    padding:10px;
+    border:1px #7c0101 solid;
+}
+
+.img {
+    width: 175px;
+    height: 175px;
+    align-self: center;
+}
+h2 {
+    align-self: center;
+}

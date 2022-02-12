@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import Nav from './Nav';
+import Footer from "./Footer"
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -125,11 +125,7 @@ class Home extends Component {
           </div>
         </div>
         {/*End of images// start of footer */}
-        <div className="footer">
-          <div id="logo">
-            <p>[LOGO HERE]</p>
-          </div>
-        </div>
+        <Footer />
       </div>
     );
   }
