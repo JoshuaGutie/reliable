@@ -90,14 +90,21 @@ background-color:whitesmoke;
   /* start slideshow */
   .duo{
     display:flex ;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     color: black;
-
+margin-bottom: 30px;
   }
 
   .duo-info{
-    width: 50vw;
+    width: 33vw;
     max-width: 600px;
+    background-color: #555557;
+    color: whitesmoke;
+    float: right;
+    order: 1;
+    border-radius: 20px;
+    padding: 30px;
   }
   .duo-info h2{
     font-family: 'Oswald', sans-serif;
@@ -112,17 +119,36 @@ background-color:whitesmoke;
     margin:5px;
     font-size: 20px;
   }
+
+  .duo-info , p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
   .slide-container{
-    width: 55vw;
+    width: 40vw;
     height: 400px;
     margin: 30px;
     position: relative;
+    order:2;
   }
 
   .each-fade img {
     width: 55vw;
     height: 400px;
   }
+
+  .third{
+    width: 33vw;
+    max-width: 600px;
+    background-color: #555557;
+    color: whitesmoke;
+    order:3;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
 /* end slideshow// start info images */
 .info-container{
   height: auto;
@@ -163,17 +189,30 @@ background-color:whitesmoke;
  border:1px solid black;
  margin-bottom: 50px;
  height: min-content;
+ border-radius: 10px;
 }
 #img1{
   object-fit: cover;
+  background-image: url("");
+  background-color: #b80000;
+  height: 350px;
+  margin-bottom: 20px;
 }
 
 #img2{
   object-fit: cover;
-
+  background-image: url("");
+  background-color: #b80000;
+  height: 350px;
+  margin-bottom: 20px;
 }
+
 #img3{
   object-fit: cover;
+  background-image: url("");
+  background-color: #b80000;
+  height: 350px;
+  margin-bottom: 20px;
 }
 
 .extra{ 
@@ -193,6 +232,8 @@ justify-content:space-around;
 
 .extra-p{
  width: 55vw; 
+ margin-bottom: 80px;
+ margin-top: 60px;
 }
 
 

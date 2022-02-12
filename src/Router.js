@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router";
+import Contactus from "./components/Contactus";
 // Write component imports here //
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -15,6 +16,9 @@ export function Router() {
       </Route>
       <Route path="/services">
         <Services />
+      </Route>
+      <Route path="/contact">
+        <Contactus />
       </Route>
     </Switch>
   );

@@ -17,7 +17,11 @@ class Nav extends Component {
               Services{" "}
             </NavLink>
           }
-          <a>Contact Us</a>
+          {
+            <NavLink activeClassName="active" to="/contact">
+              Contact{" "}
+            </NavLink>
+          }
           <a>Reviews</a>
         </div>
       </div>

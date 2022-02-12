@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -58,8 +58,12 @@ class Home extends Component {
               <p>
                 Over 15 years of reliable work we have under our belt here at
                 reliable. You can rely on us to relay the reliable info about ur
-                roof lol
+                roof lol?6
               </p>
+            </div>
+            <div className="third">
+              <h1>LEAVE IT TO US</h1>
+              <p>Our roofing options are top-of-the-line, using the highest grade of products and techniques to make installation and clean-up as easy as possible for the homeowners that turn to us for services. Your roof is one of the most important parts of your home, and it affects almost every other aspect of the building. When you need a roofing company that will come quickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
             </div>
             <div className="slide-container">
               <Fade>
@@ -94,7 +98,7 @@ class Home extends Component {
             </p>
             <p className="p-info">
               {" "}
-              From gutters, to painting, to paperwork processing we can help!{" "}
+              From gutters and painting, to paperwork processing we can help!{" "}
             </p>
           </div>
         </div>
