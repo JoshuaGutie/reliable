@@ -83,7 +83,6 @@ class Home extends Component {
           <div className="info-container">
             <div className="info" id="img1"></div>
             <div className="info" id="img2"></div>
-            <div className="info" id="img3"></div>
           </div>
           <div className="p-container">
             <p className="p-info">
@@ -95,10 +94,6 @@ class Home extends Component {
               {" "}
               We handle all types of roof repairs from fixing that little leak
               to replacing the entire roof.
-            </p>
-            <p className="p-info">
-              {" "}
-              From gutters and painting, to paperwork processing we can help!{" "}
             </p>
           </div>
         </div>

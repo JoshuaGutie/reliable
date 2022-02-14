@@ -4,7 +4,7 @@ import Contactus from "./components/Contactus";
 // Write component imports here //
 import Home from "./components/Home";
 import Services from "./components/Services";
-
+import Review from "./components/Review";
 
 // Start Router function here //
 
@@ -19,6 +19,9 @@ export function Router() {
       </Route>
       <Route path="/contact">
         <Contactus />
+      </Route>
+      <Route path="/reviews">
+        <Review />
       </Route>
     </Switch>
   );

@@ -22,7 +22,9 @@ class Nav extends Component {
               Contact{" "}
             </NavLink>
           }
-          <a>Reviews</a>
+            <NavLink activeClassName="active" to="/reviews">
+              Reviews{" "}
+            </NavLink>
         </div>
       </div>
     );

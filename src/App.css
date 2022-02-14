@@ -14,12 +14,12 @@
     padding: 0;
 }
 .header p{
-  margin-top:20px;
+  margin-top:50px;
   padding-top: 30px;
 }
 .outer{
   width: 98%;
-  height: 200px;
+  height: 210px;
   background-color: white;
   border:solid black;
   border-top: none;
@@ -28,7 +28,7 @@
 }
 .inner {
   width: 98%;
-  height: 190px;
+  height: 200px;
   background-color: whitesmoke;
   border:solid black;
   border-top: none;
@@ -94,6 +94,7 @@ background-color:whitesmoke;
     justify-content: space-evenly;
     color: black;
 margin-bottom: 30px;
+margin-top:30px ;
   }
 
   .duo-info{
@@ -155,7 +156,7 @@ margin-bottom: 30px;
   width: 100vw;
   background-color:whitesmoke;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
 }
 
 .each-fade img{
@@ -177,7 +178,7 @@ margin-bottom: 30px;
 
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   object-fit: cover;
 }
 
@@ -196,6 +197,7 @@ margin-bottom: 30px;
   background-image: url("");
   background-color: #b80000;
   height: 350px;
+  width: 25vw;
   margin-bottom: 20px;
 }
 
@@ -204,14 +206,7 @@ margin-bottom: 30px;
   background-image: url("");
   background-color: #b80000;
   height: 350px;
-  margin-bottom: 20px;
-}
-
-#img3{
-  object-fit: cover;
-  background-image: url("");
-  background-color: #b80000;
-  height: 350px;
+  width: 25vw;
   margin-bottom: 20px;
 }
 
