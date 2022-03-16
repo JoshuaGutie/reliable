@@ -19,9 +19,13 @@ class Repairs extends Component {
     }
 
     clickHandler() {
+        if(this.state.message === ' '){
         this.setState({
             message: '-Replacing wind blown shingles, repairing leaks\n\n-Close animal entry points on the roof.\n\n-Flashing Repair\n\n-Replace rotten plywood/facia\n\n -Free Inspection to assess  damage We work along side your insurance to make the process easy. Homeowner chooses the new color of the new roof. Assistance available if needed'
         })
+    }else {
+        this.setState({ message: ' '})
+    }
     }
     
 

@@ -19,9 +19,13 @@ class Types extends Component {
     }
 
     clickHandler() {
+        if(this.state.message === ' '){
         this.setState({
             message: '-We can install many different types of roofing\n\n-Concrete Tile is our specialty\n\n-Clay tile\n\n-Asphalt / Shingles\n\n-Flat roof'
         })
+    }else {
+        this.setState({ message: ' '})
+    }
     }
     
 

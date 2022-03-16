@@ -19,9 +19,16 @@ class Other extends Component {
     }
 
     clickHandler() {
+        console.log(this.state)
+        if(this.state.message === ' '){
         this.setState({
             message: '-Exterior painting\n\nInterior Painting\n\n-Cleaing Leaves from gutters\n\n-Replacing gutters\n\n-PaperWork processing'
         })
+    }else {
+        this.setState({
+            message: ' '
+        })
+    }
     }
     
 
