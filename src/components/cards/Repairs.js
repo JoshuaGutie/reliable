@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./cards.css"
 import roof from "./images/roof.png"
+import Button from "@mui/material/Button";
 
 
 
@@ -35,7 +36,20 @@ class Repairs extends Component {
                 <div className = "type-container">
                 <img src={roof} alt="Roof" className="img"/>
                 <h2>Types of Repairs</h2>
-                <button onClick={this.clickHandler}>Show more</button>
+                <Button
+            style={{
+              color: "red",
+              borderColor: "red",
+              whiteSpace: 'nowrap',
+              width: 'max'
+            }}
+            className="cardButton"
+            onClick={this.clickHandler}
+            variant="outlined"
+            fullWidth={true}
+          >
+           Repairs
+          </Button>
                 <div className = "card">{this.state.message}</div>
                 </div>
             </div>

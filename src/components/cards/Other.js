@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./cards.css"
+import Button from "@mui/material/Button";
+
 import paint from "./images/paint.png"
 
 
@@ -38,7 +40,20 @@ class Other extends Component {
                 <div className = "type-container">
                 <img src={paint} alt="Paint" className="img"/>
                 <h2>Other Services</h2>
-                <button onClick={this.clickHandler}>Show more</button>
+                <Button
+            style={{
+              color: "red",
+              borderColor: "red",
+              whiteSpace: 'nowrap',
+              width: 'max'
+            }}
+            className="cardButton"
+            onClick={this.clickHandler}
+            variant="outlined"
+            fullWidth={true}
+          >
+           Other
+          </Button>
                 <div className = "card">{this.state.message}</div>
                 </div>
             </div>
