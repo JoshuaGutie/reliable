@@ -25,21 +25,6 @@ class Home extends Component {
             <div className="outer">
               <div className="inner">
                 <p>Reliable Roofing and Repairs ATX LLC</p>{" "}
-                <div className="socials">
-                  <a href="https://www.yelp.com/biz/reliable-roofing-and-repairs-leander-3">
-                    <div id="yelp" className="icons"></div>
-                  </a>
-                  <a href="https://www.facebook.com/reliableroofingandrepairs512/">
-                    {" "}
-                    <div id="facebook" className="icons"></div>
-                  </a>
-                  <a href="https://www.linkedin.com/in/reliable-roofing-and-repairs-atx-llc-ba9396218/">
-                    <div id="linkedin" className="icons"></div>
-                  </a>
-                  <a href="https://www.bbb.org/us/tx/volente/profile/roofing-contractors/reliable-roofing-repairs-0825-1000134173">
-                    <div id="bbb" className="icons"></div>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -68,13 +53,13 @@ class Home extends Component {
             <div className="slide-container">
               <Fade>
                 <div className="each-fade">
-                  <img src={fadeImages[0]} />
+                  <img alt="Roof repair1" src={fadeImages[0]} />
                 </div>
                 <div className="each-fade">
-                  <img src={fadeImages[1]} />
+                  <img alt="Roof Repair2" src={fadeImages[1]} />
                 </div>
                 <div className="each-fade">
-                  <img src={fadeImages[2]} />
+                  <img alt="Roof repair3" src={fadeImages[2]} />
                 </div>
               </Fade>
             </div>
@@ -99,11 +84,11 @@ class Home extends Component {
         </div>
         <div className="extra">
           <div className="extra-head">
-            <h3>
+            <p className="slogan">
               <b>
                 A RELIABLE TEAM <br></br>TO ENSURE <br></br>A RELAIBLE ROOF
               </b>
-            </h3>
+            </p>
           </div>
           <div className="extra-p">
             <p>
