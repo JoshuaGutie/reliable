@@ -38,8 +38,8 @@ class Repairs extends Component {
                 <h2>Types of Repairs</h2>
                 <Button
             style={{
-              color: "red",
-              borderColor: "red",
+              color: "#242424",
+              borderColor: "#242424",
               whiteSpace: 'nowrap',
               width: 'max'
             }}

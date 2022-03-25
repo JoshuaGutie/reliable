@@ -16,7 +16,7 @@ flex-direction: column;
 }
 
 .card-container button:hover{
-    color:#000000;
+    color:#242424;
      background-color:#FFFFFF;
     
 }
@@ -38,4 +38,5 @@ flex-direction: column;
 }
 h2 {
     align-self: center;
+    color: #242424;
 }

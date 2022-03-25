@@ -10,6 +10,8 @@ class Other extends Component {
 
     
 
+
+    
     constructor(props){
         super(props)
 
@@ -42,8 +44,8 @@ class Other extends Component {
                 <h2>Other Services</h2>
                 <Button
             style={{
-              color: "red",
-              borderColor: "red",
+              color: "#242424",
+              borderColor: "#242424",
               whiteSpace: 'nowrap',
               width: 'max'
             }}

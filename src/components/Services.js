@@ -14,7 +14,7 @@ class Services extends Component {
       <div className="container">
         <div className="logoContainer"></div>
         <div className="banner">
-          <h2>We are here to help</h2>
+          <h1>We are here to help</h1>
           <p>Promotion: A FREE security system or H-E-B gift card with every Re-roof</p>
           <img src={camera} alt="Camera" className="camera"/>
         </div>

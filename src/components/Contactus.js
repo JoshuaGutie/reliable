@@ -8,6 +8,13 @@ class Contactus extends Component {
   render() {
     return (
       <div className="containerc">
+        <div className="logoContainer">
+
+        </div>
+        <div className="banner">
+<h1>Get in touch</h1>
+<p>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
+        </div>
           <Footer />
       </div>
     );

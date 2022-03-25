@@ -95,12 +95,12 @@
 }
 
 .topnav a:hover {
-  background-color: rgb(255, 185, 185);
+  background-color: #d1ffff;
   color: black;
   ;}
 
 .topnav a.active {
-  background-color: #b80000;
+  background-color: #099393;
   color: whitesmoke;
   opacity: 0.75;
 }
@@ -267,8 +267,7 @@ p {
 
 /* end images// start footer */
 .footer {
-  background-image: linear-gradient(rgb(58, 58, 58), rgb(126, 0, 0));
-  background-color: rgb(146, 0, 0);
+  background-color: rgb(31, 31, 31);
   width: 100vw;
   height: 33vh;
   display: flex;
