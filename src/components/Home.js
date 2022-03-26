@@ -3,6 +3,12 @@ import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import Footer from "./Footer";
+import insol from "./images/insol.png"
+import repair from "./images/repair.png"
+import finish from "./images/finish.png"
+import rotten from "./images/rotten.png"
+import body from "./images/body.png"
+import logo from "./images/logo.png"
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -25,6 +31,7 @@ class Home extends Component {
             <div className="outer">
               <div className="inner">
                 <p>Reliable Roofing and Repairs ATX LLC</p>{" "}
+                <img className="logo" src={logo} alt="logo"/>
               </div>
             </div>
           </div>
@@ -48,38 +55,34 @@ class Home extends Component {
             </div>
             <div className="third">
               <h1>LEAVE IT TO US</h1>
-              <p>Our roofing options are top-of-the-line, using the highest grade of products and techniques to make installation and clean-up as easy as possible for the homeowners that turn to us for services. Your roof is one of the most important parts of your home, and it affects almost every other aspect of the building. When you need a roofing company that will come quickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
+              <p>Our roofing options are top-of-the-line, using the highuickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
             </div>
             <div className="slide-container">
               <Fade>
                 <div className="each-fade">
-                  <img alt="Roof repair1" src={fadeImages[0]} />
+                  <img alt="Rotten" src={rotten} />
                 </div>
                 <div className="each-fade">
-                  <img alt="Roof Repair2" src={fadeImages[1]} />
+                  <img alt="insolation" src={insol} />
                 </div>
                 <div className="each-fade">
-                  <img alt="Roof repair3" src={fadeImages[2]} />
+                  <img alt="repair" src={repair} />
+                </div>
+                <div className="each-fade">
+                  <img alt="finish" src={finish} />
                 </div>
               </Fade>
             </div>
           </div>
           {/*End of slideshow// start info images */}
-          <div className="info-container">
-            <div className="info" id="img1"></div>
-            <div className="info" id="img2"></div>
-          </div>
           <div className="p-container">
             <p className="p-info">
               {" "}
-              We specialize in tile, asphalt, and flat roofs. With over 15 years
-              of expirience!{" "}
+              roofing options are top-of-the-line, using the highest grade of products and techniques to make installation and clean-up as easy as possible for the homeowners that turn to us for services. Your roof is one of the most important parts of your home, and it affects almost every other aspect of the building. When you need a roofing company that will come quickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information{" "}
             </p>
-            <p className="p-info">
-              {" "}
-              We handle all types of roof repairs from fixing that little leak
-              to replacing the entire roof.
-            </p>
+          </div>
+          <div className="info-container">
+            <img className="info" alt="body" src={body} />
           </div>
         </div>
         <div className="extra">

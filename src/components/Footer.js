@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
+import logo from "./images/logo.png"
 
 class Footer extends Component {
   render() {
@@ -7,7 +8,7 @@ class Footer extends Component {
       <div>
         <div className="footer">
           <div id="logo">
-            <p>[LOGO HERE]</p>
+          <img src={logo} alt="logo" className="logo"/>
           </div>
         </div>
       </div>

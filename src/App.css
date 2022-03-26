@@ -14,7 +14,7 @@
   padding: 0;
 }
 .header p {
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 30px;
 }
 
@@ -25,7 +25,7 @@
 }
 .outer {
   width: 98%;
-  height: 210px;
+  height: 265px;
   background-color: white;
   border: solid black;
   border-top: none;
@@ -34,13 +34,22 @@
 }
 .inner {
   width: 98%;
-  height: 200px;
+  height: 250px;
   background-color: whitesmoke;
   border: solid black;
   border-top: none;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  position: absolute;
+  top: 1;
+  margin-top: 70px;
 }
 .outer p {
   color: black;
@@ -100,7 +109,7 @@
   ;}
 
 .topnav a.active {
-  background-color: #099393;
+  background-color: #067474;
   color: whitesmoke;
   opacity: 0.75;
 }
@@ -183,14 +192,16 @@ p {
 }
 
 .each-fade img {
-  object-fit: cover;
-  max-width: 600px;
+  width: auto;
+  height: auto;
 }
 
 .info {
-  height: 200px;
-  width: 30%;
-  margin-top: 20px;
+  height: auto;
+  max-height: 800px;
+  min-height: 350px;
+  width: auto;
+  margin-top: 90px;
 }
 
 .p-container {
@@ -204,11 +215,12 @@ p {
 }
 
 .p-info {
-  width: 30%;
+  width: 70%;
   color: black;
   padding: 8px;
   border: 0.001em solid black;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 10vh;
   height: min-content;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -234,7 +246,7 @@ p {
 
 .extra {
   height: auto;
-  background-image: linear-gradient(whitesmoke, rgb(119, 119, 119));
+  background-image: linear-gradient(whitesmoke, #415e5e);
   display: flex;
   justify-content: space-around;
 }
@@ -257,9 +269,10 @@ p {
   max-width: 650px;
   margin: 25px;
   height: auto;
-  background-color: rgba(145, 0, 0, 0.212);
+  background-color: #3cc4c463;
   padding: 10px;
-  border: 1px rgba(129, 3, 3, 0.438) solid;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .slogan {
   font-size: 50px;
