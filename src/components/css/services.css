@@ -48,3 +48,16 @@ align-self: left;
   display: flex;
   justify-content: space-around;
 }
+
+@media only screen and (max-width: 1000px) {
+.infoContainer{
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.card{
+  width: 80vw !important;
+}
+
+}
