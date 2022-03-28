@@ -1,68 +1,53 @@
-.section{
-    height: 100vh;
+.body {
+    width: 100vw;
+    height: 1000px;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.acontainer {
+    width: 100vw;
+    height: 3000px;
     display: flex;
-    flex-direction: column;
-    scroll-snap-align: start;
-}
+    background-color: rgb(223, 223, 223);
 
-
-.published {
-    margin-top: 0px;
-    display: flex;
-    margin-left: 30px;
-}
-.section h1{
-margin-top: 50px;
-font-family: sans-serif;
-width: 100vw;
-margin-left: 45px;
-}
-
-.review {
-    border-left: 10px #707D84 solid;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 0px;
-    width: 40vw;
-    margin-left: 30px;
 }
 .rcontainer {
-    scroll-snap-type: y mandatory;
-    -ms-scroll-snap-points-y: repeat(300px);
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+    width: 33vw;
+    height: auto;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 223);
+
 }
 
-.white {
-    background-color: white;
-    height: 33vh;
+.revb {
+    width: 445px;
+    height: 140px;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    margin-bottom: 20px;
+    background-color: rgb(223, 223, 223);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.red {
-    background-image: linear-gradient(#a50101, #7c0101);
-    height: 33vh;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+.pics {
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
-.stars {
-    width: 200px;
-    height: 80px;
-    align-self:flex-start;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-left: 50px;
+.rimage {
+    width: 100px;
+    height: auto;
 }
 
-.rinfo{
-    width: 50vw;
-    height: 50vh;
-    background-color: #707D84;
-    align-self: flex-end;
+#pfp {
+width: 50px;
+height: 50px;
+}
+
+.revb p {
+    margin: 5px;
+    font-size: 15px;
 }

@@ -72,6 +72,7 @@
   position: fixed;
   justify-content:center;
   z-index: 999;
+  height: 75px;
 }
 
 .topnav p{
@@ -338,6 +339,7 @@ margin-top: 0px;
   width: 80vw;
   align-self: center;
 }
+
 
 .third {
   width: 80vw;
