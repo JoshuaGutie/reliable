@@ -9,6 +9,7 @@ import Review from "./components/Review";
 // Start Router function here //
 
 export function Router() {
+   {/* Each url path will lead to a different component */}
   return (
     <Switch>
       <Route exact path="/">

@@ -1,53 +1,77 @@
 .body {
-    width: 100vw;
-    height: 1000px;
-    background-color: rgb(223, 223, 223);
-
+  width: 100vw;
+  height: 1000px;
+  background-color: rgb(223, 223, 223);
 }
 
 .acontainer {
-    width: 100vw;
-    height: 3000px;
-    display: flex;
-    background-color: rgb(223, 223, 223);
-
+  width: 100vw;
+  height: 3000px;
+  display: flex;
+  background-color: rgb(223, 223, 223);
+  /* reviews styling */
 }
 .rcontainer {
-    width: 33vw;
-    height: auto;
-    margin: 100px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(223, 223, 223);
-
+  width: 15vw;
+  height: auto;
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(223, 223, 223);
 }
 
 .revb {
-    width: 445px;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    background-color: rgb(223, 223, 223);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 445px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: rgb(223, 223, 223);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.revc {
+    margin-top: 60px;
+    z-index: 22;
 }
 
 .pics {
-    margin-left: 5px;
-    margin-top: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .rimage {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 #pfp {
-width: 50px;
-height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .revb p {
-    margin: 5px;
-    font-size: 15px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+/*photos and info container and content  */
+
+.icontainer {
+  background-color: rgb(223, 223, 223);
+  width: 75vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.cover {
+width: 1058px;
+height:699px;
+background-image: url('./cover.png');
+display: flex;
+flex-direction: column;
 }

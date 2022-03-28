@@ -31,6 +31,9 @@ class Repairs extends Component {
     
 
     render() {
+
+          {/* Clicking the button changes the state and displays it within a div */}
+
         return (
             <div className = "card-container">
                 <div className = "type-container">
