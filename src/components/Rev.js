@@ -22,6 +22,10 @@ class Rev extends Component {
   render() {
     return (
       <div className="revc">
+                <h2 style={{
+                  margin:"0px", color:"DFDFDF"
+                }}>Reviews</h2>
+
         <div className="revb">
           <div className="pics">
             <img src={pfp} alt="pfp" id="pfp" />
@@ -58,6 +62,12 @@ class Rev extends Component {
           </p>
         </div>
         {/*When state === true more reviews are rendered */}
+        {!this.state.isShow && ( <div className="revb2">
+          <div className="pics">
+            <img src={pfp} alt="pfp" id="pfp" />
+            <img src={star} alt="stars" className="rimage" />
+          </div></div>)}
+
         {this.state.isShow && (
           <div>
             {" "}

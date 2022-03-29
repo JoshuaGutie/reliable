@@ -5,12 +5,22 @@ import Types from "./cards/Types";
 import Repairs from "./cards/Repairs";
 import Other from "./cards/Other";
 import Footer from "./Footer.js";
+import logo from "./images/logo.png";
 
 class Services extends Component {
   render() {
     return (
       <div className="container">
         <div className="logoContainer">
+          <img
+            src={logo}
+            alt="logo"
+            style={{
+              width: "auto",
+              height: "auto",
+              alignSelf: "flex-end",
+            }}
+          />
         </div>
         <div className="banner">
           <h1>We are here to help</h1>
