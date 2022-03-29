@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import pfp from "./images/pfp.png";
 import star from "./images/star.png";
 import Button from "@mui/material/Button";
-
 class Rev extends Component {
   constructor() {
     super();
@@ -152,7 +151,7 @@ class Rev extends Component {
           variant="outlined"
           onClick={this.createText}
         >
-          Show more
+          {this.state.isShow ? 'show less': 'show more'}
         </Button>
       </div>
     );
