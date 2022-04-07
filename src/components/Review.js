@@ -22,8 +22,7 @@ class Review extends Component {
               src={logo}
               alt="logo"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "300px",
                 alignSelf: "center",
               }}
             />

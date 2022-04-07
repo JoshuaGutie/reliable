@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 
 class Contactus extends Component {
   state = {
-    textToCopy: "5128455283"
+    textToCopy: "5128455283",
   };
   render() {
     return (

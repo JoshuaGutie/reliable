@@ -30,7 +30,7 @@ class Home extends Component {
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <div className="outer">
               <div className="inner">
-                <p>Reliable Roofing and Repairs ATX LLC</p>{" "}
+                <p>Arise Roofing and Repairs ATX LLC</p>{" "}
                 <img className="logo" src={logo} alt="logo"/>
               </div>
             </div>
