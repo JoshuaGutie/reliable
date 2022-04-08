@@ -46,9 +46,13 @@
 .logo{
   width: 350px;
   align-self: center;
-  position: absolute;
-  top: 1;
-  margin-top: 70px;
+  position:absolute;
+  top: 70px;
+}
+
+.logoF {
+    width: 350px;
+    align-self: center;
 }
 .outer p {
   color: black;
@@ -309,9 +313,6 @@ p {
   font-size: 17px;
 }
 
-.logo {
-margin-top: 0px;
-}
 
 .inner{
  height: 300px;

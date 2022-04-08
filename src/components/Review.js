@@ -11,7 +11,6 @@ import star from "./images/star.png";
 class Review extends Component {
   render() {
     return (
-      <div>
       <div className="acontainer">
         <div className="rcontainer">
           <Rev />
@@ -158,8 +157,6 @@ class Review extends Component {
             </div>
           </div>
         </div>
-      </div>
-      <Footer />
       </div>
     );
   }

@@ -1,23 +1,17 @@
-.body {
-  width: 100vw;
-  height: 1000px;
-  background-color: rgb(223, 223, 223);
-}
 
 .acontainer {
   width: 100vw;
-  height: 2000px;
+  height: auto;
   display: flex;
   background-color: rgb(223, 223, 223);
-  /* reviews styling */
+  margin: 0px;
 }
 .rcontainer {
-  width: 15vw;
-  height: auto;
-  margin: 100px;
+  width: 30vw;
+  justify-self: flex-end;
   display: flex;
-  justify-content: space-around;
   background-color: rgb(223, 223, 223);
+margin-top: 100px;
 }
 
 .revb {
@@ -44,6 +38,7 @@
 .revc {
     margin-top: 0px;
     z-index: 22;
+    margin-left: 10%;
 }
 
 .pics {
@@ -70,7 +65,7 @@
 
 .icontainer {
   background-color: rgb(223, 223, 223);
-  width: 75vw;
+  width: 70vw;
   height: min-content;
   display: flex;
   flex-direction: column;
@@ -115,4 +110,31 @@ grid-template-areas:
   color: #15908e;
   font-size: 45px;
   margin: 20px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 1510px) {
+    .acontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 100vw;
+    justify-self: center;
+  }
+
+  .rcontainer{
+    height: min-content;
+    justify-self: center;
+    width: 100vw;
+  }
+.revc{
+  margin: auto;
+}
+  .cover{
+    justify-self: center;
+  }
+
+  .icontainer{
+    width: 100vw;
+  }
 }

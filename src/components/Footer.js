@@ -8,7 +8,7 @@ class Footer extends Component {
       <div>
         <div className="footer">
           <div id="logo">
-          <img src={logo} alt="logo" className="logo"/>
+          <img src={logo} alt="logo" className="logoF"/>
           </div>
         </div>
       </div>

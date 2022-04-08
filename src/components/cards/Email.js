@@ -135,7 +135,7 @@ function Email() {
           onClick={onSubmit}
         >
           {success ? <CheckIcon /> : <AttachEmailIcon/>}
-          {error ? <ErrorIcon sx={{color:red[500]}} /> : <span/>}
+          {error && success != true ? <ErrorIcon sx={{color:red[500]}} /> : <span/>}
 
 
         </Fab>
