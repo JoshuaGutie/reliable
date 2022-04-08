@@ -30,7 +30,7 @@ class Home extends Component {
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <div className="outer">
               <div className="inner">
-                <p>Arise Roofing and Repairs ATX LLC</p>{" "}
+                <p>Arise Roofing and Repairs</p>{" "}
                 <img className="logo" src={logo} alt="logo"/>
               </div>
             </div>
@@ -42,20 +42,17 @@ class Home extends Component {
             <div className="duo-info">
               <h2>LEAVE YOUR ROOF WITH ONLY THE MOST RELIABLE</h2>
               <ul>
-                <li>Free estimates</li>
-                <li>Free security system instalation</li>
-                <li>Free upgrades</li>
-                <li>Free Sloppy Toppy</li>
+                <li>Free Estimates</li>
+                <li>Professional and Courteous Service</li>
+                <li>Upgrades Available</li>
+                <li>Full Inspection of Every Job Upon Completion</li>
               </ul>
               <p>
-                Over 15 years of reliable work we have under our belt here at
-                reliable. You can rely on us to relay the reliable info about ur
-                roof lol?6
-              </p>
+              We are a family owned business with over 44 years of experience. We strive to provide only the most exceptional service to ensure customer satisfaction.              </p>
             </div>
             <div className="third">
               <h1>LEAVE IT TO US</h1>
-              <p>Our roofing options are top-of-the-line, using the highuickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
+              <p>With our full documentation and photos we will ensure full confidence on the work that was performed on your roof.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
             </div>
             <div className="slide-container">
               <Fade>
