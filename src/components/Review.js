@@ -7,6 +7,7 @@ import acover from "./images/acover.png";
 import acover2 from "./images/acover2.png";
 import acover3 from "./images/acover3.png";
 import star from "./images/star.png";
+import Email from "./cards/Email";
 
 class Review extends Component {
   render() {
@@ -61,16 +62,35 @@ class Review extends Component {
           </div>
           {/*End of cover photo and start of 6 info boxes */}
 
+          {/*all 3 photos for 6 boxes*/}
+
           <div className="sixbox">
-            <img
-              src={acover}
-              alt="cover"
-              className="covers"
+            <div
+              className="reviewp"
               style={{
-                gridArea: "i3",
-                height: "100%",
+                gridArea: "p1",
+                width:"550px"
               }}
-            />
+            >
+              <h3>Why Choose Arise?</h3>
+              <span>
+                {" "}
+                We are roofing and construction experts for every roofing
+                situation or problem. If your home or building has roof damage
+                and you need roof repairs or complete roof replacement, we can
+                help. This includes metal roofing, shingle roofs, tile roofs,
+                flat roofs and more. Arise Roofing Co. is your go-to roofing contractor in
+                Austin Texas.
+              </span>
+              <img
+                src={star}
+                alt="stars"
+                style={{
+                  width: "300px",
+                  alignSelf: "center",
+                }}
+              />
+            </div>
 
             <img
               src={acover2}
@@ -82,6 +102,30 @@ class Review extends Component {
               }}
             />
 
+            <div
+              className="reviewp"
+              style={{
+                gridArea: "p2",
+                width:"550px"
+              }}
+            >
+              <h3>Our Expirience</h3>
+              <span> Serving the greater austin area for 40 years</span>
+              <span> </span>
+              <span>
+                {" "}
+              Owner of Arise Roofing, Jimmy Gutierrez is a second generation roofing contractor. With over 45 years of commercial, liscensed expirience, we are confident there is no challenge we will not arise to.
+              </span>
+            </div>
+            <img
+              src={acover}
+              alt="cover"
+              className="covers"
+              style={{
+                gridArea: "i3",
+                height: "100%",
+              }}
+            />
             <img
               src={acover3}
               alt="cover"
@@ -91,70 +135,6 @@ class Review extends Component {
                 height: "100%",
               }}
             />
-
-            {/*all 3 photos for 6 boxes*/}
-
-            <div
-              className="reviewp"
-              style={{
-                gridArea: "p1",
-              }}
-            >
-              <h3>Our Expirience</h3>
-              <span> Serving the greater austin area for 20 years</span>
-              <span>
-                {" "}
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco"
-              </span>
-              <img src={star} alt="stars" style={{
-                width:"300px", alignSelf: "center"
-              }} />
-            </div>
-
-            <div
-              className="reviewp"
-              style={{
-                gridArea: "p2",
-              }}
-            >
-              <h3>Our Expirience</h3>
-              <span> Serving the greater austin area for 20 years</span>
-              <span>
-                {" "}
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco"
-              </span>
-              <span>
-                {" "}
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco
-              </span>
-            </div>
-            <div
-              className="reviewp"
-              style={{
-                gridArea: "p3",
-              }}
-            >
-              <h3>Our Expirience</h3>
-              <span> Serving the greater austin area for 20 years</span>
-              <span>
-                {" "}
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco"
-              </span>
-              <span>
-                {" "}
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco
-              </span>
-            </div>
           </div>
         </div>
       </div>

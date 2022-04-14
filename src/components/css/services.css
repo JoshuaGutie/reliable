@@ -62,4 +62,9 @@ align-self: left;
   width: 80vw !important;
 }
 
+.camera{
+  width: 100px;
+  height: auto;
+}
+
 }

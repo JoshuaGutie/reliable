@@ -359,4 +359,15 @@ p {
   width: 325px;
   align-self: center;
 }
+
+.logo{
+  top:150px;
+  width: 250px;
+  height: auto;
+}
+
+.logoF{
+  width: 250px;
+  height: auto;
+}
 }

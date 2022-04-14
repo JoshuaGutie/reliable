@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import "../App.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
-import insol from "./images/insol.png"
-import repair from "./images/repair.png"
-import finish from "./images/finish.png"
-import rotten from "./images/rotten.png"
-import body from "./images/body.png"
-import logo from "./images/logo.png"
+import insol from "./images/insol.png";
+import repair from "./images/repair.png";
+import finish from "./images/finish.png";
+import rotten from "./images/rotten.png";
+import body from "./images/body.png";
+import logo from "./images/logo.png";
 
 const fadeImages = [
   "https://media.istockphoto.com/photos/roofer-picture-id451887741?s=612x612",
@@ -31,7 +32,7 @@ class Home extends Component {
             <div className="outer">
               <div className="inner">
                 <p>Arise Roofing and Repairs</p>{" "}
-                <img className="logo" src={logo} alt="logo"/>
+                <img className="logo" src={logo} alt="logo" />
               </div>
             </div>
           </div>
@@ -40,7 +41,7 @@ class Home extends Component {
           {/*start of slideshow */}
           <div className="duo">
             <div className="duo-info">
-              <h2>LEAVE YOUR ROOF WITH ONLY THE MOST RELIABLE</h2>
+              <h2>Professional and Reliable Roofing Contractors</h2>
               <ul>
                 <li>Free Estimates</li>
                 <li>Professional and Courteous Service</li>
@@ -48,11 +49,31 @@ class Home extends Component {
                 <li>Full Inspection of Every Job Upon Completion</li>
               </ul>
               <p>
-              We are a family owned business with over 44 years of experience. We strive to provide only the most exceptional service to ensure customer satisfaction.              </p>
+                We are a family owned business with over 44 years of experience.
+                We strive to provide only the most exceptional service to ensure
+                customer satisfaction.{" "}
+              </p>
             </div>
             <div className="third">
-              <h1>LEAVE IT TO US</h1>
-              <p>With our full documentation and photos we will ensure full confidence on the work that was performed on your roof.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information.</p>
+              <h1>We Will Rise To The Challenge</h1>
+              <p>
+                With our full documentation and photos we will ensure full
+                confidence on the work that was performed on your roof.<br></br>
+                <br></br>We also offer residential roof maintenance plans to
+                help you stay on top of your roof repairs before they become
+                major problems. Contact us for more information.
+              </p>
+              <NavLink
+                style={{
+                  color: "#063d74",
+                  textDecoration: "none",
+                  fontSize: "30px",
+                  fontWeight: "500",
+                }}
+                to="/contact"
+              >
+                Contact us{" "}
+              </NavLink>{" "}
             </div>
             <div className="slide-container">
               <Fade>
@@ -75,7 +96,27 @@ class Home extends Component {
           <div className="p-container">
             <p className="p-info">
               {" "}
-              roofing options are top-of-the-line, using the highest grade of products and techniques to make installation and clean-up as easy as possible for the homeowners that turn to us for services. Your roof is one of the most important parts of your home, and it affects almost every other aspect of the building. When you need a roofing company that will come quickly and fix the problem efficiently, call us first.<br></br><br></br>We also offer residential roof maintenance plans to help you stay on top of your roof repairs before they become major problems. Contact us for more information{" "}
+              roofing options are top-of-the-line, using the highest grade of
+              products and techniques to make installation and clean-up as easy
+              as possible for the homeowners that turn to us for services. Your
+              roof is one of the most important parts of your home, and it
+              affects almost every other aspect of the building. When you need a
+              roofing company that will come quickly and fix the problem
+              efficiently, call us first.<br></br>
+              <br></br>We also offer residential roof maintenance plans to help
+              you stay on top of your roof repairs before they become major
+              problems.{" "}
+              <NavLink
+                style={{
+                  color: "#063d74",
+                  textDecoration: "none",
+                  fontWeight: "500",
+                }}
+                to="/contact"
+              >
+                Contact us{" "}
+              </NavLink>{" "}
+              for more information{" "}
             </p>
           </div>
           <div className="info-container">
@@ -85,26 +126,32 @@ class Home extends Component {
         <div className="extra">
           <div className="extra-head">
             <p className="slogan">
-              <b>
-                A RELIABLE TEAM <br></br>TO ENSURE <br></br>A RELAIBLE ROOF
+              <b style={{ textAlign: "center" }}>
+                There's No Challenge<br></br> That We Can't Arise To
               </b>
             </p>
           </div>
           <div className="extra-p">
             <p>
               When you need trusted and affordable roofing services, look no
-              further than Fults Roofing Company. We offer comprehensive roofing
+              further than Arise Roofing Company. We offer comprehensive roofing
               services that include:
             </p>
+            <p>Roof installation,</p>
             <p>
-              New construction roof installation Emergency storm damage roof
-              repairs Residential and commercial roof repairs Shingle, metal or
-              flat roof replacements Roof repair insurance claim assistance
-            </p>
-            <p>
-              No matter what you need, our team can handle it. Contact Fults
-              Roofing Company today for emergency roofing services in Austin &
-              Hutto, TX.
+              No matter what you need, our team can handle it.{" "}
+              <NavLink
+                style={{
+                  color: "#252525",
+                  textDecoration: "none",
+                  fontWeight: "500",
+                }}
+                to="/contact"
+              >
+                Contact{" "}
+              </NavLink>{" "}
+              Arise Roofing Company today for emergency roofing services in
+              Austin & Hutto, TX.
             </p>
           </div>
         </div>
