@@ -55,9 +55,7 @@ class Review extends Component {
                 width: "600px",
               }}
             >
-              Nisi aliquip culpa sint incididunt labore commodo veniam. Duis
-              sunt nisi qui mollit voluptate excepteur et sunt anim deserunt
-              dolore.
+              We are a dedicated and passionate team, only satisfied with perfection! Learn more about why you should choose us
             </p>
           </div>
           {/*End of cover photo and start of 6 info boxes */}
