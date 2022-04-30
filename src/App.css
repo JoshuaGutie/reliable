@@ -313,7 +313,9 @@ p {
   font-size: 17px;
 }
 
-
+.slide-container {
+  width: 100vw;
+}
 .inner{
  height: 300px;
  justify-content: space-around;
@@ -369,5 +371,9 @@ p {
 .logoF{
   width: 250px;
   height: auto;
+}
+
+.extra-p {
+  width: 100vw;
 }
 }

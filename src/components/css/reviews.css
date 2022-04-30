@@ -139,6 +139,7 @@ grid-template-areas:
 }
   .cover{
     justify-self: center;
+
   }
 
   .icontainer{
@@ -149,5 +150,50 @@ grid-template-areas:
     display: flex;
     flex-direction: column;
     align-self: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .cover{
+    width: 400px;
+    height: auto;
+  }
+
+  .cover h4 {
+    font-size: 20px !important;
+  }
+
+  .cover h1 {
+    font-size: 40px !important;
+  }
+
+  .cover p {
+    font-size: 15px !important;
+    margin-top: 5px;
+    width: 400px !important;
+  }
+  .sixbox h3 {
+    font-size: 30px;
+  }
+
+.sixbox {
+  width: 100vw;
+}
+
+  .sixbox span {
+    font-size: 15px;
+  }
+
+  .reviewp h3, span{ 
+    text-align: center !important;
+    width: 100vw;
+  }
+
+  
+
+  .rcontainer span {
+    text-align: left !important;
   }
 }

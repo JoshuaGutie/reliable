@@ -118,15 +118,6 @@ class Review extends Component {
               </span>
             </div>
             <img
-              src={acover}
-              alt="cover"
-              className="covers"
-              style={{
-                gridArea: "i3",
-                height: "100%",
-              }}
-            />
-            <img
               src={acover3}
               alt="cover"
               className="covers"
