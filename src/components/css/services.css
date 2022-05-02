@@ -52,6 +52,16 @@ align-self: left;
 }
 
 @media only screen and (max-width: 1000px) {
+
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .infoContainer{
   flex-direction: column;
   height: auto;
