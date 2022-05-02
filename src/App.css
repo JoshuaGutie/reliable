@@ -303,10 +303,6 @@ p {
   align-self: center;
 }
 
-.socials {
-  width: 45px;
-  height: 45px;
-}
 
 @media only screen and (max-width: 1000px) {
 
@@ -320,7 +316,7 @@ p {
 }
 
 .topnav a {
-  font-size: 17px;
+  font-size: 17px !important;
 }
 
 .slide-container {
@@ -376,6 +372,8 @@ p {
   top:150px;
   width: 250px;
   height: auto;
+  position: absolute !important;
+  display: none;
 }
 
 .logoF{
@@ -386,4 +384,5 @@ p {
 .extra-p {
   width: 100vw;
 }
+
 }

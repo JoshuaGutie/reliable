@@ -122,7 +122,7 @@ function Email() {
           value={toSend.message}
           onChange={handleChange}
           style={{
-            width: "400px",
+            width: "300px",
           }}
         />
 

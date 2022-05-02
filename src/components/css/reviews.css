@@ -195,6 +195,7 @@ grid-template-areas:
 
   .sixbox span {
     font-size: 15px;
+    width: 90vw ;
   }
 
   .reviewp h3, span{ 
