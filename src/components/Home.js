@@ -31,7 +31,7 @@ class Home extends Component {
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <div className="outer">
               <div className="inner">
-                <p>Arbiiter Roofing and Repairs</p>{" "}
+                <p>Arbiter Roofing and Repairs</p>{" "}
                 <img className="logo" src={logo} alt="logo" />
               </div>
             </div>
