@@ -70,14 +70,14 @@ class Review extends Component {
                 width:"550px"
               }}
             >
-              <h3>Why Choose Arise?</h3>
+              <h3>Why Choose Arbiter?</h3>
               <span>
                 {" "}
                 We are roofing and construction experts for every roofing
                 situation or problem. If your home or building has roof damage
                 and you need roof repairs or complete roof replacement, we can
                 help. This includes metal roofing, shingle roofs, tile roofs,
-                flat roofs and more. Arise Roofing Co. is your go-to roofing contractor in
+                flat roofs and more. Arbiter Roofing Co. is your go-to roofing contractor in
                 Austin Texas.
               </span>
               <img
@@ -112,7 +112,7 @@ class Review extends Component {
               <span> </span>
               <span>
                 {" "}
-              Owner of Arise Roofing, Jimmy Gutierrez is a second generation roofing contractor. With over 45 years of commercial, liscensed expirience, we are confident there is no challenge we will not arise to.
+              Owner of Arbiter Roofing, Jimmy Gutierrez is a second generation roofing contractor. With over 45 years of commercial, liscensed expirience, we are confident there is no challenge we will not overcome.
               </span>
             </div>
             <img

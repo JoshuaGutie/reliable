@@ -31,7 +31,7 @@ class Home extends Component {
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
             <div className="outer">
               <div className="inner">
-                <p>Arise Roofing and Repairs</p>{" "}
+                <p>Arbiiter Roofing and Repairs</p>{" "}
                 <img className="logo" src={logo} alt="logo" />
               </div>
             </div>
@@ -127,14 +127,14 @@ class Home extends Component {
           <div className="extra-head">
             <p className="slogan">
               <b style={{ textAlign: "center" }}>
-                There's No Challenge<br></br> That We Can't Arise To
+                A Reliable Team<br></br> To Ensure A Reliable Roof.
               </b>
             </p>
           </div>
           <div className="extra-p">
             <p>
               When you need trusted and affordable roofing services, look no
-              further than Arise Roofing Company. We offer comprehensive roofing
+              further than Arbiter Roofing Company. We offer comprehensive roofing
               services that include:
             </p>
             <p>Roof installation,</p>
@@ -150,8 +150,8 @@ class Home extends Component {
               >
                 Contact{" "}
               </NavLink>{" "}
-              Arise Roofing Company today for emergency roofing services in
-              Austin & Hutto, TX.
+              Arbiter Roofing Company today for emergency roofing services in
+              Austin.
             </p>
           </div>
         </div>
