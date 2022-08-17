@@ -6,7 +6,24 @@ import Repairs from "./cards/Repairs";
 import Other from "./cards/Other";
 import Footer from "./Footer.js";
 import title from "./images/title.png";
+import { useSpring, animated as a } from 'react-spring'
 
+
+function Cards() {
+  const props = useSpring({
+    to: { opacity: 1, y: 0 },
+    from: { opacity: 0, y: 150 },
+    delay: 500,
+  });
+
+  return (
+    <a.div style={props} className="infoContainer">
+      <Types />
+      <Repairs />
+      <Other />
+    </a.div>
+  );
+}
 class Services extends Component {
   render() {
     return (
@@ -30,11 +47,7 @@ class Services extends Component {
           </p>
           <img src={camera} alt="Camera" className="camera" />
         </div>
-        <div className="infoContainer">
-          <Types />
-          <Repairs />
-          <Other />
-        </div>
+<Cards />
         <Footer />
       </div>
     );
