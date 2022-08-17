@@ -12,7 +12,7 @@ class Home extends Component {
           <img src={title} alt="title" className="titleImg" />
         </div>
         <div className="homeCover">
-          <img src={cover1} alt="cover" className="homeImg" />
+          <div className="homeImg"/>
           <div className="coverText">
             <h1>Professional and Reliable Roofing Contractors</h1>
             <span>
@@ -41,7 +41,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="valueCover">
-          <span className="valueText" style={{ fontSize: "2.1em", fontWeight:"600"}}>
+          <span className="valueText" style={{ fontSize: "2.1em", fontWeight:"600", textAlign:'left'}}>
             Adding Home Value & Protection
           </span>
           <div className="valueDesc">
