@@ -5,7 +5,7 @@ import Types from "./cards/Types";
 import Repairs from "./cards/Repairs";
 import Other from "./cards/Other";
 import Footer from "./Footer.js";
-import logo from "./images/logo.png";
+import title from "./images/title.png";
 
 class Services extends Component {
   render() {
@@ -13,7 +13,7 @@ class Services extends Component {
       <div className="container">
         <div className="logoContainer">
           <img
-            src={logo}
+            src={title}
             alt="logo"
             style={{
               width: "auto",

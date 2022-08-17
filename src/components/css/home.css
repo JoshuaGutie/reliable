@@ -1,0 +1,150 @@
+.homeContainer {
+        height: auto;
+        width: 100vw;
+        margin: 0px;
+        padding-top:80px;
+}
+.title {
+  display: flex;
+}
+.titleImg {
+  margin: auto;
+}
+
+.homeImg {
+  width: 100vw;
+  height: 100%;
+  margin-top: 15px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.coverText {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 25px;
+  bottom: 75px;
+  background-color: #ffff;
+}
+
+.coverText span,
+h1 {
+  text-align: center;
+  margin: 0px;
+  width: 50vw;
+}
+
+.homeContact {
+  display: flex;
+  width: 100vw;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.coverText2 {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+  padding: 25px;
+  background-color: #ffff;
+}
+
+.coverText2 span,
+h2 {
+  text-align: center;
+  margin: 0px;
+  width: 20vw;
+}
+
+span {
+  font-size: 1.1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.valueCover {
+  background-image: url("../images/cover2.png");
+  width: 100vw;
+  height: 420px;
+  margin: 40px 0 40px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.valueText {
+  color: #ffff;
+  font-size: 1.5em;
+  margin: 0 30px 0 20px;
+}
+
+.valueDesc {
+  margin-bottom: 20px;
+}
+
+.homeEnd {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.coverText3 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+  padding: 25px;
+font-size: 1.3em;
+text-align: center;
+  background-color: #ffff;
+}
+
+.coverText3 h3 {
+margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .homeContact{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .coverText2{
+        margin: 30px auto auto auto;
+    }
+
+    .phoneEmail {
+        margin: auto;
+    }
+    .coverText3{
+        width: 70vw;
+    }
+
+    .endSpan {
+        width: 70vw !important;
+    }
+
+    .coverText2{
+        width: 70vw;
+    }
+
+  }

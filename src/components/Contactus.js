@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./css/contactus.css";
 import Footer from "./Footer";
-import logo from "./images/logo.png";
+import title from "./images/title.png";
 import Email from "./cards/Email";
 import phone from "./images/phone.png";
 import Button from "@mui/material/Button";
@@ -16,7 +16,7 @@ class Contactus extends Component {
         <div className="logoContainer">
           {" "}
           <img
-            src={logo}
+            src={title}
             alt="logo"
             style={{
               width: "auto",
