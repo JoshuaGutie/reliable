@@ -6,6 +6,7 @@ import acover2 from "./images/acover2.png";
 import acover3 from "./images/acover3.png";
 import star from "./images/star.png";
 import { useSpring, animated as a } from 'react-spring'
+import Footer from "./Footer";
 
 function Six() {
   const props = useSpring({
@@ -82,6 +83,7 @@ function Six() {
 class Review extends Component {
   render() {
     return (
+      <div className="reviewsContainer">
       <div className="acontainer">
         <div className="rcontainer">
           <Rev />
@@ -134,6 +136,8 @@ class Review extends Component {
 
               <Six />
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }

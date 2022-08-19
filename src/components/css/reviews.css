@@ -1,4 +1,7 @@
-
+.reviewsContainer {
+  width: 100vw;
+  height:3000px;
+}
 .acontainer {
   width: 100vw;
   height: auto;
@@ -67,7 +70,7 @@ margin-top: 100px;
 .icontainer {
   background-color: #FFFF;
   width: 70vw;
-  height: min-content;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -88,7 +91,7 @@ margin: auto;
 
 .sixbox {
 width: 50vw;
-height: 1100px;
+height: auto;
 align-self: flex-start;
 margin-top: 125px;
 display: grid;

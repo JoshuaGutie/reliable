@@ -3,6 +3,7 @@ import title from "./images/title.png";
 import "./css/home.css";
 import Email from "./cards/Email";
 import { useSpring, animated as a } from 'react-spring'
+import Footer from "./Footer";
 
 function Card() {
   const props = useSpring({
@@ -89,6 +90,7 @@ class Home extends Component {
             </span>
         </div>
         </div>
+        <Footer />
       </div>
     );
   }
