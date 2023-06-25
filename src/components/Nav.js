@@ -33,6 +33,9 @@ function Links() {
     <NavLink activeClassName="active" to="/reviews">
       About{" "}
     </NavLink>
+    <NavLink activeClassName="active" to="/gallery">
+      Gallery{" "}
+    </NavLink>
 </a.div>
 }
 class Nav extends Component {

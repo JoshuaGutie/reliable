@@ -5,6 +5,7 @@ import Contactus from "./components/Contactus";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import Review from "./components/Review";
+import Photos from "./components/Photos";
 
 // Start Router function here //
 
@@ -23,6 +24,9 @@ export function Router() {
       </Route>
       <Route path="/reviews">
         <Review />
+      </Route>
+      <Route path="/gallery">
+        <Photos />
       </Route>
     </Switch>
   );

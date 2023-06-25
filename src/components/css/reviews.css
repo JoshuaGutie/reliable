@@ -1,6 +1,6 @@
 .reviewsContainer {
   width: 100vw;
-  height:3000px;
+  height: 3000px;
 }
 .acontainer {
   width: 100vw;
@@ -12,8 +12,8 @@
   width: 30vw;
   justify-self: flex-end;
   display: flex;
-  background-color: #FFFF;
-margin-top: 100px;
+  background-color: #ffff;
+  margin-top: 100px;
 }
 
 .revb {
@@ -23,7 +23,7 @@ margin-top: 100px;
   padding-left: 5px;
   flex-direction: column;
   margin-bottom: 20px;
-  background-color: #FFFF;
+  background-color: #ffff;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -36,12 +36,14 @@ margin-top: 100px;
   flex-direction: column;
   margin-bottom: 20px;
   background-color: rgb(223, 223, 223);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
 
 .revc {
-    margin-top: 0px;
-    z-index: 22;
-    margin-left: 10%;
+  margin-top: 0px;
+  z-index: 22;
+  margin-left: 10%;
 }
 
 .pics {
@@ -68,7 +70,7 @@ margin-top: 100px;
 /*photos and info container and content  */
 
 .icontainer {
-  background-color: #FFFF;
+  background-color: #ffff;
   width: 70vw;
   height: auto;
   display: flex;
@@ -82,25 +84,25 @@ margin-top: 100px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-background-image: url('./cover.png');
-display: flex;
-flex-direction: column;
-align-self: center;
-margin: auto;
+  background-image: url("./cover.png");
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
 }
 
 .sixbox {
-width: 50vw;
-height: auto;
-align-self: flex-start;
-margin-top: 125px;
-display: grid;
-grid-template-columns: 50% 50%;
-grid-template-rows: 33% 33% 33%;
-grid-template-areas: 
-"p1 i1"
-"i2 p2"
-"p3 i3";
+  width: 50vw;
+  height: auto;
+  align-self: flex-start;
+  margin-top: 125px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-areas:
+    "p1 i1"
+    "i2 p2"
+    "p3 i3";
 }
 
 .sixbox span {
@@ -122,8 +124,54 @@ grid-template-areas:
   font-size: 45px;
   margin: 20px 0px 0px 0px;
 }
+
+.galleryHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.galleryHeader h1 {
+  margin-top: 100px;
+  width: fit-content;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.galCard {
+  display: flex;
+  align-self: center;
+  width: fit-content;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  flex-direction: column;
+}
+
+.galCard span {
+  font-size: 20px;
+  width: fit-content;
+  align-self: center;
+}
+
+.galCard h3 {
+  margin: 0;
+  align-self: center;
+  width: fit-content;
+}
+.galPhotos img {
+  margin: 5px;
+  height: 300px;
+  width: auto;
+}
 @media only screen and (max-width: 2300px) {
-  .sixbox{
+  .sixbox {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -131,7 +179,7 @@ grid-template-areas:
 }
 
 @media only screen and (max-width: 1300px) {
-    .acontainer{
+  .acontainer {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -146,45 +194,45 @@ grid-template-areas:
     background-size: cover;
   }
 
-  .rcontainer{
+  .rcontainer {
     height: min-content;
     justify-self: center;
     width: 100vw;
   }
-.revc{
-  margin: auto;
-}
-  .cover{
+  .revc {
+    margin: auto;
+  }
+  .cover {
     justify-self: center;
-
   }
 
-  .icontainer{
+  .icontainer {
     width: 100vw;
   }
 
-  .sixbox{
+  .sixbox {
     display: flex;
     flex-direction: column;
     align-self: center;
   }
 
+  .galPhotos {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-
 @media only screen and (max-width: 1100px) {
-
-  html,body
-{
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
-}
+    overflow-x: hidden;
+  }
 
-
-  .cover{
+  .cover {
     width: 400px;
     height: auto;
   }
@@ -206,21 +254,20 @@ grid-template-areas:
     font-size: 30px;
   }
 
-.sixbox {
-  width: 100vw;
-}
-
-  .sixbox span {
-    font-size: 15px;
-    width: 90vw ;
-  }
-
-  .reviewp h3, span{ 
-    text-align: center !important;
+  .sixbox {
     width: 100vw;
   }
 
+  .sixbox span {
+    font-size: 15px;
+    width: 90vw;
+  }
 
+  .reviewp h3,
+  span {
+    text-align: center !important;
+    width: 100vw;
+  }
 
   .rcontainer span {
     text-align: left !important;
