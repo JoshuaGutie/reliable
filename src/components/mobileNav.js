@@ -73,6 +73,9 @@ class MobileNav extends Component {
             >
               About{" "}
             </NavLink>
+            <NavLink activeClassName="active" to="/gallery">
+              Gallery{" "}
+            </NavLink>
           </div>
         )}
       </div>
